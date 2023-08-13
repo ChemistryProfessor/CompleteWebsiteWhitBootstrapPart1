@@ -5,12 +5,296 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="icon" href="">
+    <link rel="icon" href="assets/img/Logo Text 1.png">
+    <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
     <title>Complete Website Whit Bootstrap Part 1</title>
   </head>
   <body>
 
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg bg-white sticky-top">
+      <div class="container">
+        <a href="#" class="fw-bold fs-4">Kingdom</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#services">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#profile">Profile</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#reviews">Reviews</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#team">Team</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Contact">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#blog">Blog</a>
+            </li>
+          </ul>
+          <a href="#" class="btn btn-brand ms-lg-3">Download</a>
+        </div>
+      </div>
+    </nav>
 
+    <!-- hero -->
+    <section id="hero" class="min-vh-100 d-flex align-items-center text-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <h1 class="text-uppercase fw-semibold text-white">Welcom to Kingdom</h1>
+            <h5 class="text-white my-3 mb-4">WE ARE TEAM OF TALENTED DESIGNERS MAKING WEBSITES WITH BOOTSTRAP</h5>
+            <div>
+              <a href="#" class="btn btn-brand me-2">Get Started</a>
+              <a href="#" class="btn btn-light ms-2">One Portfolio</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- about -->
+    <section id="about" class="section-padding">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 text-center">
+            <div class="section-title">
+              <h1 class="display-4 fw-semibold">Aboute us</h1>
+              <div class="line"></div>
+              <p>we love to craft digital experiens for brands rather then crap and more lorem ipsums and do crazy skills</p>
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-between align-items-center">
+          <div class="col-lg-6">
+            <img src="assets/img/Guy 4.jpg" class="rounded-3" alt="sorry">
+          </div>
+          <div class="col-lg-5">
+            <h1>Aboute Kingdom</h1>
+            <p class="mt-3 mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae voluptatem architecto rem soluta!</p>
+
+            <div class="d-flex pt-4 mb-3">
+              <div class="iconBox me-4 rounded-3">
+                <i class="ri-mail-send-fill"></i>
+              </div>
+              <div>
+                <h5>We are Awesome</h5>
+                <p> amet consectetur adipisicing elit. Atque obcaecati aliquam quod.</p>
+              </div>
+            </div>
+            <div class="d-flex">
+              <div class="iconBox me-4 rounded-3">
+                <i class="ri-user-5-fill"></i>
+              </div>
+              <div>
+                <h5>We are Awesome</h5>
+                <p> amet consectetur adipisicing elit. Atque obcaecati aliquam quod.</p>
+              </div>
+            </div>
+            <div class="d-flex">
+              <div class="iconBox me-4 rounded-3">
+                <i class="ri-rocket-2-fill"></i>
+              </div>
+              <div>
+                <h5>We are Awesome</h5>
+                <p> amet consectetur adipisicing elit. Atque obcaecati aliquam quod.</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- services -->
+    <section id="services" class="section-padding border-top">
+      <div class="container">
+
+        <div class="row">
+          <div class="col-12 text-center">
+            <div class="section-title">
+              <h1 class="display-4 fw-semibold">Awesome Services</h1>
+              <div class="line"></div>
+              <p>we love to craft digital experiens for brands rather then crap and more lorem ipsums and do crazy skills</p>
+            </div>
+          </div>
+        </div>
+        <div class="row text-center">
+
+          <div class="col-lg-4 col-sm-6">
+            <div class="service theme-shadow p-lg-5 p-4 rounded-3 overflow-hidden mt-3">
+              <div class="iconBox rounded-3">
+                <i class="ri-stack-fill"></i>
+              </div>
+              <h5 class="mt-4 mb-3">UX Design</h5>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab incidunt error beatae.</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <div class="service theme-shadow p-lg-5 p-4 rounded-3 overflow-hidden mt-3">
+              <div class="iconBox rounded-3">
+                <i class="ri-stack-fill"></i>
+              </div>
+              <h5 class="mt-4 mb-3">UX Design</h5>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab incidunt error beatae.</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <div class="service theme-shadow p-lg-5 p-4 rounded-3 overflow-hidden mt-3">
+              <div class="iconBox rounded-3">
+                <i class="ri-stack-fill"></i>
+              </div>
+              <h5 class="mt-4 mb-3">UX Design</h5>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab incidunt error beatae.</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <div class="service theme-shadow p-lg-5 p-4 rounded-3 overflow-hidden mt-3">
+              <div class="iconBox rounded-3">
+                <i class="ri-stack-fill"></i>
+              </div>
+              <h5 class="mt-4 mb-3">UX Design</h5>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab incidunt error beatae.</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <div class="service theme-shadow p-lg-5 p-4 rounded-3 overflow-hidden mt-3">
+              <div class="iconBox rounded-3">
+                <i class="ri-stack-fill"></i>
+              </div>
+              <h5 class="mt-4 mb-3">UX Design</h5>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab incidunt error beatae.</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <div class="service theme-shadow p-lg-5 p-4 rounded-3 overflow-hidden mt-3">
+              <div class="iconBox rounded-3">
+                <i class="ri-stack-fill"></i>
+              </div>
+              <h5 class="mt-4 mb-3">UX Design</h5>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab incidunt error beatae.</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- counter -->
+    <section id="counter" class="section-padding">
+      <div class="container text-center">
+        <div class="row g-4">
+          <div class="col-lg-3 colsm-6">
+            <h1 class="text-white display-4">90,000+</h1>
+            <h6 class="text-uppercase mt-3 text-white mb-0">Total Downloads</h6>
+          </div>
+          <div class="col-lg-3 colsm-6">
+            <h1 class="text-white display-4">58K+</h1>
+            <h6 class="text-uppercase mt-3 text-white mb-0">Total Clients</h6>
+          </div>
+          <div class="col-lg-3 colsm-6">
+            <h1 class="text-white display-4">5M+</h1>
+            <h6 class="text-uppercase mt-3 text-white mb-0">Themes Designed</h6>
+          </div>
+          <div class="col-lg-3 colsm-6">
+            <h1 class="text-white display-4">100+</h1>
+            <h6 class="text-uppercase mt-3 text-white mb-0">Team Members</h6>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- profile -->
+    <section id="profile" class="section-padding">
+      <div class="container">
+
+        <div class="row">
+          <div class="col-12 text-center">
+            <div class="section-title">
+              <h1 class="display-4 fw-semibold">Our Profile</h1>
+              <div class="line"></div>
+              <p>we love to craft digital experiens for brands rather then crap and more lorem ipsums and do crazy skills</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-4">
+            <div class="profile-item image-zoom rounded-3 overflow-hidden">
+              <div class="image-zoom-wrapper">
+                <img src="assets/img/Programing 4.jpg" alt="sorry">
+              </div>
+              <a href="assets/img/Programing 4.jpg" data-fancybox="gallery" data-caption="Picture 1" class="iconBox rounded-3">
+                <i class="ri-search-2-line"></i>
+              </a>
+            </div>
+            <div class="profile-item image-zoom mt-4 rounded-3 overflow-hidden">
+              <div class="image-zoom-wrapper">
+                <img src="assets/img/Programing 1.jpg" alt="sorry">
+              </div>
+              <a href="assets/img/Programing 1.jpg" data-fancybox="gallery" data-caption="Picture 2" class="iconBox rounded-3">
+                <i class="ri-search-2-line"></i>
+              </a>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="profile-item image-zoom rounded-3 overflow-hidden">
+              <div class="image-zoom-wrapper">
+                <img src="assets/img/Programing 7.jpg" alt="sorry">
+              </div>
+              <a href="assets/img/Programing 7.jpg" data-fancybox="gallery" data-caption="Picture 3" class="iconBox rounded-3">
+                <i class="ri-search-2-line"></i>
+              </a>
+            </div>
+            <div class="profile-item image-zoom mt-4 rounded-3 overflow-hidden">
+              <div class="image-zoom-wrapper">
+                <img src="assets/img/Programing 6.jpg" alt="sorry">
+              </div>
+              <a href="assets/img/Programing 6.jpg" data-fancybox="gallery" data-caption="Picture 4" class="iconBox rounded-3">
+                <i class="ri-search-2-line"></i>
+              </a>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="profile-item image-zoom rounded-3 overflow-hidden">
+              <div class="image-zoom-wrapper">
+                <img src="assets/img/Programing 9.jpg" alt="sorry">
+              </div>
+              <a href="assets/img/Programing 9.jpg" data-fancybox="gallery" data-caption="Picture 5" class="iconBox rounded-3">
+                <i class="ri-search-2-line"></i>
+              </a>
+            </div>
+            <div class="profile-item image-zoom mt-4 rounded-3 overflow-hidden">
+              <div class="image-zoom-wrapper">
+                <img src="assets/img/Programing 3.jpg" alt="sorry">
+              </div>
+              <a href="assets/img/Programing 3.jpg" data-fancybox="gallery" data-caption="Picture 6" class="iconBox rounded-3">
+                <i class="ri-search-2-line"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
     <script src="assets/js/main.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
   </body>
