@@ -70,10 +70,10 @@ img {
 .image-zoom:hover .image-zoom-wrapper img {
     transform: scale(1.1);
 }
+
 /* NAVBAR */
-.navbar-nav .nav-eink {
-    font-weight: 500;
-    color: var(--c-brand);
+.navbar-nav .nav-link {
+    font-weight: bold;
 }
 
 /* BTN */

@@ -7,10 +7,11 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="icon" href="assets/img/Logo Text 1.png">
     <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css"/>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
     <title>Complete Website Whit Bootstrap Part 1</title>
   </head>
-  <body>
+  <body data-bs-spy="scroll" data-bs-target=".navbar">
 
     <!-- navbar -->
     <nav class="navbar navbar-expand-lg bg-white sticky-top">
@@ -55,13 +56,13 @@
     </nav>
 
     <!-- hero -->
-    <section id="hero" class="min-vh-100 d-flex align-items-center text-center">
+    <section id="hero" class="min-vh-100 d-flex align-items-center text-center overflow-hidden">
       <div class="container">
         <div class="row">
           <div class="col-12">
-            <h1 class="text-uppercase fw-semibold text-white">Welcom to Kingdom</h1>
-            <h5 class="text-white my-3 mb-4">WE ARE TEAM OF TALENTED DESIGNERS MAKING WEBSITES WITH BOOTSTRAP</h5>
-            <div>
+            <h1 data-aos="fade-left" class="text-uppercase fw-semibold text-white">Welcom to Kingdom</h1>
+            <h5 class="text-white my-3 mb-4" data-aos="fade-right">WE ARE TEAM OF TALENTED DESIGNERS MAKING WEBSITES WITH BOOTSTRAP</h5>
+            <div data-aos="fade-up" data-aos-delay="200">
               <a href="#" class="btn btn-brand me-2">Get Started</a>
               <a href="#" class="btn btn-light ms-2">One Portfolio</a>
             </div>
@@ -74,7 +75,7 @@
     <section id="about" class="section-padding">
       <div class="container">
         <div class="row">
-          <div class="col-12 text-center">
+          <div class="col-12 text-center" data-aos="fade-down" data-aos-delay="300">
             <div class="section-title">
               <h1 class="display-4 fw-semibold">Aboute us</h1>
               <div class="line"></div>
@@ -83,10 +84,10 @@
           </div>
         </div>
         <div class="row justify-content-between align-items-center">
-          <div class="col-lg-6">
+          <div class="col-lg-6" data-aos="fade-down" data-aos-delay="260">
             <img src="assets/img/Guy 4.jpg" class="rounded-3" alt="sorry">
           </div>
-          <div class="col-lg-5">
+          <div class="col-lg-5" data-aos="fade-down" data-aos-delay="200">
             <h1>Aboute Kingdom</h1>
             <p class="mt-3 mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae voluptatem architecto rem soluta!</p>
 
@@ -128,7 +129,7 @@
       <div class="container">
 
         <div class="row">
-          <div class="col-12 text-center">
+          <div class="col-12 text-center" data-aos="fade-down" data-aos-delay="200">
             <div class="section-title">
               <h1 class="display-4 fw-semibold">Awesome Services</h1>
               <div class="line"></div>
@@ -138,7 +139,7 @@
         </div>
         <div class="row text-center">
 
-          <div class="col-lg-4 col-sm-6">
+          <div class="col-lg-4 col-sm-6" data-aos="fade-down" data-aos-delay="200">
             <div class="service theme-shadow p-lg-5 p-4 rounded-3 overflow-hidden mt-3">
               <div class="iconBox rounded-3">
                 <i class="ri-stack-fill"></i>
@@ -147,7 +148,7 @@
               <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab incidunt error beatae.</p>
             </div>
           </div>
-          <div class="col-lg-4 col-sm-6">
+          <div class="col-lg-4 col-sm-6" data-aos="fade-down" data-aos-delay="300">
             <div class="service theme-shadow p-lg-5 p-4 rounded-3 overflow-hidden mt-3">
               <div class="iconBox rounded-3">
                 <i class="ri-stack-fill"></i>
@@ -156,7 +157,7 @@
               <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab incidunt error beatae.</p>
             </div>
           </div>
-          <div class="col-lg-4 col-sm-6">
+          <div class="col-lg-4 col-sm-6" data-aos="fade-down" data-aos-delay="400">
             <div class="service theme-shadow p-lg-5 p-4 rounded-3 overflow-hidden mt-3">
               <div class="iconBox rounded-3">
                 <i class="ri-stack-fill"></i>
@@ -165,7 +166,7 @@
               <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab incidunt error beatae.</p>
             </div>
           </div>
-          <div class="col-lg-4 col-sm-6">
+          <div class="col-lg-4 col-sm-6" data-aos="fade-down" data-aos-delay="500">
             <div class="service theme-shadow p-lg-5 p-4 rounded-3 overflow-hidden mt-3">
               <div class="iconBox rounded-3">
                 <i class="ri-stack-fill"></i>
@@ -174,7 +175,7 @@
               <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab incidunt error beatae.</p>
             </div>
           </div>
-          <div class="col-lg-4 col-sm-6">
+          <div class="col-lg-4 col-sm-6" data-aos="fade-down" data-aos-delay="600">
             <div class="service theme-shadow p-lg-5 p-4 rounded-3 overflow-hidden mt-3">
               <div class="iconBox rounded-3">
                 <i class="ri-stack-fill"></i>
@@ -183,7 +184,7 @@
               <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab incidunt error beatae.</p>
             </div>
           </div>
-          <div class="col-lg-4 col-sm-6">
+          <div class="col-lg-4 col-sm-6" data-aos="fade-down" data-aos-delay="700">
             <div class="service theme-shadow p-lg-5 p-4 rounded-3 overflow-hidden mt-3">
               <div class="iconBox rounded-3">
                 <i class="ri-stack-fill"></i>
@@ -202,19 +203,19 @@
     <section id="counter" class="section-padding">
       <div class="container text-center">
         <div class="row g-4">
-          <div class="col-lg-3 colsm-6">
+          <div class="col-lg-3 colsm-6" data-aos="fade-down" data-aos-delay="200">
             <h1 class="text-white display-4">90,000+</h1>
             <h6 class="text-uppercase mt-3 text-white mb-0">Total Downloads</h6>
           </div>
-          <div class="col-lg-3 colsm-6">
+          <div class="col-lg-3 colsm-6" data-aos="fade-down" data-aos-delay="260">
             <h1 class="text-white display-4">58K+</h1>
             <h6 class="text-uppercase mt-3 text-white mb-0">Total Clients</h6>
           </div>
-          <div class="col-lg-3 colsm-6">
+          <div class="col-lg-3 colsm-6" data-aos="fade-down" data-aos-delay="320">
             <h1 class="text-white display-4">5M+</h1>
             <h6 class="text-uppercase mt-3 text-white mb-0">Themes Designed</h6>
           </div>
-          <div class="col-lg-3 colsm-6">
+          <div class="col-lg-3 colsm-6" data-aos="fade-down" data-aos-delay="380">
             <h1 class="text-white display-4">100+</h1>
             <h6 class="text-uppercase mt-3 text-white mb-0">Team Members</h6>
           </div>
@@ -227,7 +228,7 @@
       <div class="container">
 
         <div class="row">
-          <div class="col-12 text-center">
+          <div class="col-12 text-center" data-aos="fade-down" data-aos-delay="200">
             <div class="section-title">
               <h1 class="display-4 fw-semibold">Our Profile</h1>
               <div class="line"></div>
@@ -237,7 +238,7 @@
         </div>
 
         <div class="row">
-          <div class="col-md-4">
+          <div class="col-md-4" data-aos="fade-down" data-aos-delay="200">
             <div class="profile-item image-zoom rounded-3 overflow-hidden">
               <div class="image-zoom-wrapper">
                 <img src="assets/img/Programing 4.jpg" alt="sorry">
@@ -255,7 +256,7 @@
               </a>
             </div>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-4" data-aos="fade-down" data-aos-delay="300">
             <div class="profile-item image-zoom rounded-3 overflow-hidden">
               <div class="image-zoom-wrapper">
                 <img src="assets/img/Programing 7.jpg" alt="sorry">
@@ -273,7 +274,7 @@
               </a>
             </div>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-4" data-aos="fade-down" data-aos-delay="400">
             <div class="profile-item image-zoom rounded-3 overflow-hidden">
               <div class="image-zoom-wrapper">
                 <img src="assets/img/Programing 9.jpg" alt="sorry">
@@ -301,7 +302,7 @@
       <div class="container">
 
         <div class="row">
-          <div class="col-12 text-center">
+          <div class="col-12 text-center" data-aos="fade-down" data-aos-delay="200">
             <div class="section-title">
               <h1 class="display-4 fw-semibold">Testimonials</h1>
               <div class="line"></div>
@@ -311,7 +312,7 @@
         </div>
         <div class="row gy-5 gx-4">
 
-          <div class="col-lg-4 col-sm-6">
+          <div class="col-lg-4 col-sm-6" data-aos="fade-down" data-aos-delay="200">
             <div class="review">
 
               <div class="review-head p-4 bg-white theme-shadow">
@@ -337,7 +338,7 @@
 
             </div>
           </div>
-          <div class="col-lg-4 col-sm-6">
+          <div class="col-lg-4 col-sm-6" data-aos="fade-down" data-aos-delay="300">
             <div class="review">
 
               <div class="review-head p-4 bg-white theme-shadow">
@@ -363,7 +364,85 @@
 
             </div>
           </div>
-          <div class="col-lg-4 col-sm-6">
+          <div class="col-lg-4 col-sm-6" data-aos="fade-down" data-aos-delay="400">
+            <div class="review">
+
+              <div class="review-head p-4 bg-white theme-shadow">
+                <div class="text-warning">
+                  <i class="ri-star-fill"></i>
+                  <i class="ri-star-fill"></i>
+                  <i class="ri-star-fill"></i>
+                  <i class="ri-star-fill"></i>
+                  <i class="ri-star-fill"></i>
+                </div>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione laudantium aspernatur animi sed fugiat minima sed fugiat minima  provident!
+                </p>
+              </div>
+
+              <div class="review-person mt-4 d-flex align-items-center">
+                <img class="rounded-4 w-50 h-75" src="assets/img/Guy 7.jpg" alt="sorry">
+                <div class="ms-3">
+                  <h5>Viktor Hogo</h5>
+                  <small>Front-end Developer</small>
+                </div>
+              </div>
+
+            </div>
+          </div>        
+          <div class="col-lg-4 col-sm-6" data-aos="fade-down" data-aos-delay="500">
+            <div class="review">
+              
+              <div class="review-head p-4 bg-white theme-shadow">
+                <div class="text-warning">
+                  <i class="ri-star-fill"></i>
+                  <i class="ri-star-fill"></i>
+                  <i class="ri-star-fill"></i>
+                  <i class="ri-star-fill"></i>
+                  <i class="ri-star-fill"></i>
+                </div>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. consectetur adipisicing elit. sed fugiat minima provident!
+                </p>
+              </div>
+
+              <div class="review-person mt-4 d-flex align-items-center">
+                <img class="rounded-4 w-50 h-75" src="assets/img/Guy 6.jpg" alt="sorry">
+                <div class="ms-3">
+                  <h5>Amirhosein Derakhshan</h5>
+                  <small>web Programmer</small>
+                </div>
+              </div>
+
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6" data-aos="fade-down" data-aos-delay="600">
+            <div class="review">
+
+              <div class="review-head p-4 bg-white theme-shadow">
+                <div class="text-warning">
+                  <i class="ri-star-fill"></i>
+                  <i class="ri-star-fill"></i>
+                  <i class="ri-star-fill"></i>
+                  <i class="ri-star-fill"></i>
+                  <i class="ri-star-fill"></i>
+                </div>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione laudantium aspernatur animi sed fugiat minima provident!
+                </p>
+              </div>
+
+              <div class="review-person mt-4 d-flex align-items-center">
+                <img class="rounded-4 w-50 h-75" src="assets/img/Guy 5.jpg" alt="sorry">
+                <div class="ms-3">
+                  <h5>Danne Russell</h5>
+                  <small>UX Architect</small>
+                </div>
+              </div>
+
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6" data-aos="fade-down" data-aos-delay="700">
             <div class="review">
 
               <div class="review-head p-4 bg-white theme-shadow">
@@ -398,7 +477,7 @@
       <div class="container">
         
         <div class="row">
-          <div class="col-12 text-center">
+          <div class="col-12 text-center" data-aos="fade-down" data-aos-delay="200">
             <div class="section-title">
               <h1 class="display-4 fw-semibold">Team Members</h1>
               <div class="line"></div>
@@ -409,7 +488,7 @@
 
         <div class="row g-4 text-center">
 
-          <div class="col-md-4">
+          <div class="col-md-4" data-aos="fade-down" data-aos-delay="200">
             <div class="team-member image-zoom">
               <div class="image-zoom-wrapper rounded-3 overflow-hidden">
                 <img src="assets/img/Guy 8.jpg" alt="sorry">
@@ -420,7 +499,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-4" data-aos="fade-down" data-aos-delay="300">
             <div class="team-member image-zoom">
               <div class="image-zoom-wrapper rounded-3 overflow-hidden">
                 <img src="assets/img/Guy 10.jpg" alt="sorry">
@@ -431,7 +510,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-4" data-aos="fade-down" data-aos-delay="400">
             <div class="team-member image-zoom">
               <div class="image-zoom-wrapper rounded-3 overflow-hidden">
                 <img src="assets/img/Guy 9.jpg" alt="sorry">
@@ -462,7 +541,7 @@
           </div>
         </div>
 
-        <div class="row justify-content-center">
+        <div class="row justify-content-center" data-aos="fade-down" data-aos-delay="200">
           <div class="col-lg-8">
             <form action="#" class="row g-3 p-lg-5 p-4 bg-white team-shadow rounded-3">
               <div class="form-group col-lg-6">
@@ -495,7 +574,7 @@
       <div class="container">
 
         <div class="row">
-          <div class="col-12 text-center">
+          <div class="col-12 text-center" data-aos="fade-down" data-aos-delay="200">
             <div class="section-title">
               <h1 class="display-4 fw-semibold">Recent News & Articel</h1>
               <div class="line"></div>
@@ -506,7 +585,7 @@
 
         <div class="row">
 
-          <div class="col-md-4">
+          <div class="col-md-4" data-aos="fade-down" data-aos-delay="200">
             <div class="team-member image-zoom">
               <div class="image-zoom-wrapper rounded-3 overflow-hidden">
                 <img src="assets/img/Compony 4.jpg" alt="sorry">
@@ -516,7 +595,7 @@
               <a href="#">Read More</a>
             </div>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-4" data-aos="fade-down" data-aos-delay="300">
             <div class="team-member image-zoom">
               <div class="image-zoom-wrapper rounded-3 overflow-hidden">
                 <img src="assets/img/Compony 2.jpg" alt="sorry">
@@ -526,7 +605,7 @@
               <a href="#">Read More</a>
             </div>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-4" data-aos="fade-down" data-aos-delay="400">
             <div class="team-member image-zoom">
               <div class="image-zoom-wrapper rounded-3 overflow-hidden">
                 <img src="assets/img/Compony 3.jpg" alt="sorry">
@@ -617,5 +696,18 @@
     <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
     <script src="assets/js/main.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 900,
+      offset: 120,
+      delay: 0,
+      easing: 'linner',
+      once: false,
+      mirror: false,
+      anchorPlacement: 'top-bottom',
+    })
+  </script>
   </body>
 </html>
